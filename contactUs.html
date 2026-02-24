@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <body>
+ 
     <center>
        
    
@@ -14,7 +15,7 @@
         <button type="submit">Send Message</button>
       </form>
     </center>
-    <nav>
+    <nav class="T">
      <ul>
             
             <li><a href="about.html">About Me</a></li>
@@ -28,7 +29,65 @@
     </nav>
     <style>
 
-      
+         ul {
+            list-style: none;        /* Remove bullets */
+            padding: 0;              /* Remove default padding */
+            display: flex;           /* Make items horizontal */
+            justify-content: center; /* Center horizontally */
+            font-style: bold;
+        }
+
+        li {  
+            margin: 0 15px;          /* Space between items */
+        }
+
+        a {
+            text-decoration: none;   /* Remove underline */
+            color: black;
+            font-weight: bold;
+            
+        }
+        .T{
+             margin: 0;
+            font-style: bold;
+
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;  /* Name left, menu right */
+            align-items: center;
+            padding: 20px;
+            font-size: 35px;
+           
+        }
+        .quote {
+       height: 50vh;         
+    margin-top: 100px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+     margin-bottom: 0; 
+        }
+        a {
+    color: black;          /* normal */
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;           /* when mouse over */
+}
+
+a:active {
+    color: black;           /* when clicked */
+}
+
+a:visited {
+    color: black;           /* after visiting */
+}
 
 body{
     background: url('Image12.jpg') ;
@@ -113,4 +172,5 @@ button:hover {
     transform: scale(1.05);
 }
     </style>
+    
 </body>
